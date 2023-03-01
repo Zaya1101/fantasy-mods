@@ -1,0 +1,7 @@
+.hero-image {
+  background-image: url(../../images/hero_image.jpg);
+  background-position: 40% 60%;
+  height: 100%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}

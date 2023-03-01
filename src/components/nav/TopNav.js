@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 import { Link } from "gatsby";
 
-import Logo from "../../src/images/FANTASY_MODS.png";
+import Logo from "../../images/FANTASY_MODS.png";
 
 import "./topNav.css";
 
@@ -21,12 +21,15 @@ const Topnav = () => {
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <Navbar.Collapse id="basic-navbar-nav">
+        {/* <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto dropdown-border">
             <Link className="nav-link text-light" to="/contact-us">Contact Us</Link>
             <Link className="nav-link text-light" to="/support">Support</Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
+        <Nav className="ms-auto dropdown-border">
+          <p className="nav-link text-light mb-0" style={{marginTop: "-10px"}}>0421 965 337</p>
+        </Nav>
       </Container>
     </Navbar>
   );
