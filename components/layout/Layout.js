@@ -11,13 +11,15 @@ const Layout = ({children}) => {
   
   return (
     <>
-      <Topnav />
+      <div style={{backgroundColor: "#101010", minHeight: "100vh", color: "white"}}>
+        <Topnav />
         <ThemeProvider
           breakpoints={["five-xl", "four-xl", "xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xs"]}
           minBreakpoint="xs"
         >
           <main>{children}</main>
         </ThemeProvider>
+      </div>
     </>
   );
 };
