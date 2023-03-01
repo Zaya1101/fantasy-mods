@@ -12,7 +12,7 @@ const Hero = () => {
       <Container fluid>
         <Row className="d-flex justify-content-center text-center">
           <Col xs={12} md={8}>
-            <h1 className="fw-semibold">Fantasy Mods Australia</h1>
+            <h1 className="fw-semibold pb-2">Fantasy Mods Australia</h1>
             <h2>Brisbane-based service in which a technician comes to you and installs your Fantasy-tailored spec</h2>  
           </Col>
         </Row>

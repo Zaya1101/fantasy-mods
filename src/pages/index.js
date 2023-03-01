@@ -23,14 +23,23 @@ const IndexPage = () => {
           </Col>
         </Row>
         <Row className="d-flex justify-content-center">
-          <Col xs={12} md={4}>
-            <Image src={TwoSeries} fluid/>
+          <Col xs={12} md={{span: 4}}>
+            <Image src={TwoSeries} fluid rounded/>
+            <p>BMW 2 Series F22</p>
           </Col>
-          <Col xs={12} md={4}>
-            <Image src={TwoSeries} fluid/>
+          <Col xs={12} md={{span: 4, offset: 2}}>
+            <Image src={TwoSeries} fluid rounded/>
+            <p>BMW 2 Series F22</p>
           </Col>
-          <Col xs={12} md={4}>
-            <Image src={TwoSeries} fluid/>
+        </Row>
+        <Row className="d-flex justify-content-center pt-5">
+          <Col xs={12} md={{span: 4}}>
+            <Image src={TwoSeries} fluid rounded/>
+            <p>BMW 2 Series F22</p>
+          </Col>
+          <Col xs={12} md={{span: 4, offset: 2}}>
+            <Image src={TwoSeries} fluid rounded/>
+            <p>BMW 2 Series F22</p>
           </Col>
         </Row>
       </Container>
